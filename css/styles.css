@@ -6,7 +6,9 @@
 
 .divHeader {
     display: flex;
-    background-color: #1d3b2c;
+    align-items: center;
+    padding: 15px;
+    background-color: #1e3027;
 }
 
 .titulo {
@@ -14,8 +16,43 @@
     padding: 22px;
 }
 
+.logoPorsche2 {
+    width: 260px;
+    height: 35px;
+    margin-right: 12px;
+}
+
 .logoPorsche {
-    width: 60px;
-    height: 60px;
-    margin-block: 15px;
+    width: 35px;
+    height: 45px;
+}
+
+.tarjeta2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+h3{
+    color: #ffff;
+}
+
+.textoTarjeta {
+    color: #ffff;
+    text-align: center;
+}
+
+.porscheTarjeta2 {
+    width: 750px;
+    height: 400px;
+    padding-block: 12px;
+}
+
+footer div{
+    display: flex;
+}
+footer div a i{
+    text-decoration: none;
+    color: red
 }
