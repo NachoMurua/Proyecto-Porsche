@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -27,33 +30,45 @@
     height: 45px;
 }
 
-.tarjeta2, .tarjeta1{
+.tarjeta2,
+.tarjeta1 {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    background-color: black;
-    margin-top: 10px;
+    justify-content: space-between;
+    text-align: center;
+    margin-inline: 30px;
+    margin-bottom: 30px;
+    max-width: auto;
 }
 
-h3{
-    color: #ffff;
+h3 {
+    color: black;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
 }
 
 .textoTarjeta {
-    color: #ffff;
+    color: black;
     text-align: center;
+    margin-inline: 60px;
+    font-family: "Montserrat", sans-serif;
 }
 
-.porscheTarjeta2 {
+.porscheTarjeta2{
     width: 750px;
-    height: 400px;
+    height: 420px;
     padding-block: 12px;
 }
 
-footer div{
+
+footer div {
     display: flex;
 }
-footer div a i{
+
+footer div a i {
     text-decoration: none;
     color: red
 }

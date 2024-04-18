@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Porsche prototipo</title>
 </head>
 
@@ -31,13 +32,13 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./img/porscheRojo.png" class="d-block w-100" alt="..." width="auto" height="820px">
+                        <img src="./img/porscheRojo.png" class="d-block w-100" alt="..." width="auto" height="855px">
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/panamera.png" class="d-block w-100" alt="..." width="auto" height="820px">
+                        <img src="./img/panamera.png" class="d-block w-100" alt="..." width="auto" height="855px">
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/918.png" class="d-block w-100" alt="..." width="auto" height="820px">
+                        <img src="./img/918.png" class="d-block w-100" alt="..." width="auto" height="855px">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -54,18 +55,22 @@
         </section>
 
         <section class="tarjetas">
-            <div class="tarjeta1">
-                    <img class="porscheTarjeta2" src="./img/porscheTarjeta.png"" alt="">  
+            <div class="tarjeta1" data-aos="fade-right"
+            data-aos-offset="350"
+            data-aos-easing="ease-in-sine">
+                    <img class="porscheTarjeta2" src="./img/911gt3.png"" alt="">  
                 <div class="textosTarjeta2">
-                    <h3>Porche taycan</h3>
-                    <p class="textoTarjeta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolor maxime dolorum vitae, iure, voluptas minima</p>
+                    <h3>Porsche GT 911</h3>
+                    <p class="textoTarjeta">El Porsche 911 GT3 es un automóvil deportivo cupé de dos puertas, con motor plano <br> de seis cilindros en disposición trasera montado longitudinalmente y de tracción trasera, <br> producido por el fabricante alemán Porsche AG desde 1999. <br>Se trata de una versión más radical del 911 estándar con motor naturalmente aspirado.</p>
                 </div>
             </div>
 
-            <div class="tarjeta2">
-                    <div class="textosTarjeta2">
-                        <h3>Porche taycan</h3>
-                        <p class="textoTarjeta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolor maxime dolorum vitae, iure, voluptas minima</p>
+            <div class="tarjeta2" data-aos="fade-left"
+            data-aos-offset="350"
+            data-aos-easing="ease-in-sine"">
+                    <div class="textosTarjeta2" >
+                        <h3>Porsche taycan</h3>
+                        <p class="textoTarjeta">Lorem ipsum dolor  sit amet consectetur adipisicing elit. Repellat <br> dolor maxime dolorum vitae, iure, voluptas minima Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. Repellat dolor maxime dolorum vitae, iure, voluptas minima</p>
                     </div>
                 <img class="porscheTarjeta2" src="./img/porscheTarjeta.png"" alt="">
             </div>
@@ -95,6 +100,11 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./JS/main.js"></script>
 </body>
 
 </html>
