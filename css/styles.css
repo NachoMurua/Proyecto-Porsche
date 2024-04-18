@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.divHeader {
+    display: flex;
+    background-color: #1d3b2c;
+}
+
+.titulo {
+    color: #8a8b8b;
+    padding: 22px;
+}
+
+.logoPorsche {
+    width: 60px;
+    height: 60px;
+    margin-block: 15px;
+}
