@@ -27,11 +27,12 @@
     height: 45px;
 }
 
-.tarjeta2{
+.tarjeta2, .tarjeta1{
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: black;
+    margin-top: 10px;
 }
 
 h3{
